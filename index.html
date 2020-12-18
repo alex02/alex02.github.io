@@ -19,14 +19,11 @@
   <meta property="og:image" content="">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"> 
   
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <script async src="assets/js/main.js"></script>
+  <script>document.addEventListener("DOMContentLoaded",function(a){a=document.createElement("link");var b=document.getElementsByTagName("script")[0];a.rel="stylesheet";a.href="/assets/css/main.css";a.type="text/css";b.parentNode.insertBefore(a,b);a=document.createElement("link");a.rel="stylesheet";a.href="/assets/css/normalize.css";a.type="text/css";b.parentNode.insertBefore(a,b);a=document.getElementById("mobile-menu");var c=document.getElementById("home-menu");return a.addEventListener("click",
+function(){this.classList.toggle("opened");this.setAttribute("aria-expanded",this.classList.contains("opened"));c.classList.toggle("opened")},!1)});
+  </script>
 </head>
 
 <body class="dark-theme">
@@ -60,7 +57,7 @@
   </div>
   
   <footer>
-    <p>&copy; alex.net.co &nbsp;&bull;&nbsp; <a href="/en/">View in English</a></p>
+    <p>&copy; alex.net.co &nbsp;&bull;&nbsp; <a href="./en/">View in English</a></p>
   </footer>
 </body>
 
