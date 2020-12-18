@@ -333,10 +333,6 @@ ul.home-menu li a:hover::after {
   width: 100%
 }
 
-ul.home-menu li:last-child {
-  display: none
-}
-
 .content {
   max-width: inherit;
   margin: 0 auto;
@@ -352,6 +348,10 @@ footer {
   margin: 2em 0;
   user-select: none;
   cursor: default
+}
+
+footer a {
+  font-size: .9em
 }
 
 input, textarea {
@@ -490,10 +490,6 @@ button[type="submit"] {
   
   ul.home-menu li a::after {
     display: none
-  }
-  
-  ul.home-menu li:last-child {
-    display: block
   }
   
   .content {
