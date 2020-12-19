@@ -351,7 +351,8 @@ footer {
 }
 
 footer a {
-  font-size: .9em
+  font-size: .9em;
+  text-decoration: none
 }
 
 input, textarea {
@@ -401,7 +402,7 @@ button[type="submit"] {
     padding: 0;
     margin: 0 auto;
     position: absolute;
-    top: 1.5em;
+    top: 1.3em;
     right: 1em
   }
   
@@ -493,7 +494,7 @@ button[type="submit"] {
   }
   
   .content {
-    padding: 0 2em
+    padding: 1em 2em 0 2em
   }
   
   body.dark-theme header {
