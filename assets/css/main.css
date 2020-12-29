@@ -547,16 +547,13 @@ input[type="submit"] {
   }
   
   .item {
+    flex-direction: initial;
     flex-flow: row wrap
   }
   
   .icon, .details {
     max-width: 100%;
     width: auto
-  }
-  
-  .item:nth-child(odd) {
-    flex-direction: initial
   }
   
   .item h2 {
