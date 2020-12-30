@@ -348,8 +348,12 @@ ul.home-menu li a:hover::after {
   line-height: 1.5
 }
 
-.content .item:first-of-type {
+.content .item:first-of-type, p.get-quote {
   padding-top: 1em
+}
+
+.item svg path {
+  fill: #2d2d2d
 }
 
 .item {
@@ -381,7 +385,7 @@ a.get-quote-btn {
   background: #000;
 	width: 10em;
 	display: inline-block;
-	padding: .3em;
+	padding: .7em;
 	color: #fff;
 	cursor: pointer;
 	text-decoration: none
@@ -552,8 +556,7 @@ input[type="submit"] {
   }
   
   .icon, .details {
-    max-width: 100%;
-    width: auto
+    width: 100%
   }
   
   .item h2 {
