@@ -348,7 +348,7 @@ ul.home-menu li a:hover::after {
   line-height: 1.5
 }
 
-.content .item:first-of-type, p.get-quote {
+.content .item:first-of-type, .item p.get-quote {
   padding-top: 1em
 }
 
@@ -364,8 +364,21 @@ ul.home-menu li a:hover::after {
   margin-top: 1em
 }
 
+.item:nth-child(odd) {
+  flex-direction: row;
+}
+
 .item h2 {
   margin-top: 0
+}
+
+.item h2.nomargin {
+  margin-bottom: .3em
+}
+
+.item h3 {
+  margin: 0;
+  padding: 0
 }
 
 .icon {
@@ -546,6 +559,10 @@ input[type="submit"] {
     display: none
   }
   
+  .item ul {
+    padding: 0 .8em
+  }
+  
   .content {
     padding: 1em 2em 0 2em
   }
@@ -562,6 +579,10 @@ input[type="submit"] {
   .item h2 {
     text-align: center;
     margin-top: 1em
+  }
+  
+  .item h3 {
+    text-align: center
   }
   
   body.dark-theme header {
